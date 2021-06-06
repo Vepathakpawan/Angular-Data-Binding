@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'DataBinding';
+  name = "Pawan";
+  showMe: boolean = false
+doToggle() {
+this.showMe = !this.showMe
 }
+  newPost='NO CONTENT';
+  onAddPost(){
+    this.newPost='Hello from Pawan';
+  
+  }
+
+
+}
+
